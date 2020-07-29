@@ -14,7 +14,7 @@ public class ExcellData {
 	public static String readExcel(String filePath, String fileName, String sheetName) throws IOException {
 
 		// Create an object of File class to open xlsx file
-		File file = new File("G:\\New folder\\FlipKart\\Excell\\" + fileName);
+		File file = new File("D:\\Git\\FlipKartApp\\Excell\\" + fileName);
 
 		// Create an object of FileInputStream class to read excel file
 		FileInputStream inputStream = new FileInputStream(file);
