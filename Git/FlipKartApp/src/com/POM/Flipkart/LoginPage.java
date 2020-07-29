@@ -34,7 +34,7 @@ public class LoginPage extends BasePage{
 	
 	
 	public void Login_Flipkart() throws IOException  {
-		String filePath = "G:\\New folder\\FlipKart\\Excell";
+		String filePath = "D:\\Git\\FlipKartApp\\Excell";
 		String unall=ExcellData.readExcel(filePath, "Data.xlsx", "Sheet1");
 		int index = unall.indexOf(' ');
 		String un = unall.substring(0, index);
